@@ -1,47 +1,46 @@
+/* Reset i ogólne style */
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-background: #f4f4f4;
-text-align: center;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  min-height: 100vh;
 }
-.navtop{
-padding: 15px;
-background-color: white;
-}
+
+/* Pasek nawigacyjny */
 .navbar {
-position: sticky;
-top: 0;
-width: 100%;
-background: #333;
-color: white;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 15px 20px;
-z-index: 1000;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
 }
-.nav-links {
-list-style: none;
-display: flex;
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
 }
-.nav-links li {
-margin: 0 15px;
+
+.nav-link:hover {
+  border-color: #444;
 }
-.nav-links a {
-color: white;
-text-decoration: none;
-font-size: 1em;
-padding: 5px 10px;
-transition: 0.3s;
+
+.nav-link.active {
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #00ff88, #003366) 1;
 }
-.nav-links a:hover {
-background: #555;
-border-radius: 5px;
-}
-.content {
-padding: 20px;
+
+main {
+  padding: 2rem;
+  text-align: center;
 }
