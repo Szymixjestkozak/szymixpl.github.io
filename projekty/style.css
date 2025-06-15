@@ -1,0 +1,46 @@
+/* Reset i ogólne style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Pasek nawigacyjny */
+.navbar {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
+}
+
+.nav-link:hover {
+  border-color: #444;
+}
+
+.nav-link.active {
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #00ff88, #003366) 1;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
