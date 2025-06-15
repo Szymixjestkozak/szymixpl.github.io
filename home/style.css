@@ -43,7 +43,7 @@ border-radius: 0.75rem;
 }
 }
 }
-@layer demo {
+@layer demo
 :root {
 --bounce: linear(
 0,
