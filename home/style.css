@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #111;
+  background: #111 orange;
   color: #fff;
   min-height: 100vh;
 }
@@ -43,4 +43,10 @@ body {
 main {
   padding: 2rem;
   text-align: center;
+}
+
+.nav-bar img {
+position: static;
+
+
 }
