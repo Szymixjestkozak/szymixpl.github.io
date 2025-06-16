@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #3a3b52;
+  background: #111;
   color: #fff;
   min-height: 100vh;
 }
@@ -45,7 +45,6 @@ main {
   text-align: center;
 }
 
-.nav-bar img {
-position: static;
-height: 20px;
+.nav-bar-img {
+widows: 20px;
 }
