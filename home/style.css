@@ -45,6 +45,7 @@ main {
   text-align: center;
 }
 
-.nav-bar-img {
-widows: 20px;
+.navbar-logo {
+width: 20px;
+align-content: normal;
 }
