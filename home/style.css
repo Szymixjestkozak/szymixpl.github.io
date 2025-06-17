@@ -46,11 +46,6 @@ main {
 }
 
 .nasz-team-container {
-  display: inline;
   margin: 20px;
-  color: #fff;
-}
-
-.szymix-conatiner {
-  color: #fff;
+  border: 2px solid #003366;
 }
