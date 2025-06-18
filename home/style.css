@@ -45,6 +45,7 @@ main {
   text-align: center;
 }
 
-.nasz-team-container {
-  margin: 100px;
+.container {
+  display: flex;
+  gap: 50px;
 }
